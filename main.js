@@ -1,4 +1,3 @@
-// Responsive Mobile Navigation Switcher
 const mobileMenu = document.querySelector('#mobile-menu');
 const navLinks = document.querySelector('.nav-links');
 
@@ -14,7 +13,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Scroll Reveal Observer Setup (Fades elements in elegantly on scroll)
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -26,7 +24,6 @@ const revealObserver = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => revealObserver.observe(el));
 
-// Active Window Scroll Tracking Highlights 
 const UIsections = document.querySelectorAll('section');
 const navbarItems = document.querySelectorAll('.nav-link');
 
