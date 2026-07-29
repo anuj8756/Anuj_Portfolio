@@ -155,7 +155,13 @@ h2::after {
 .hero-content .highlight { color: var(--accent); }
 .hero-content p { font-size: 1.35rem; color: var(--text-muted); margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; }
 
+
+
+
+
 /* --- About & Education --- */
+
+
 .about-text { max-width: 850px; margin: 0 auto; text-align: center; font-size: 1.15rem; color: var(--text-muted); }
 .education-block { margin-top: 50px; text-align: left; background: var(--bg-secondary); padding: 30px; border-radius: 12px; border: 1px solid var(--card-border); }
 .education-block h3 { color: var(--text-main); margin-bottom: 20px; font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
@@ -164,6 +170,7 @@ h2::after {
 .edu-item strong { color: var(--text-main); display: block; font-size: 1.1rem; }
 
 /* --- Skills Section --- */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -188,17 +195,21 @@ h2::after {
 }
 
 /* --- Experience Timeline --- */
+
+
 .timeline { position: relative; max-width: 800px; margin: 0 auto; padding-left: 30px; border-left: 2px solid var(--bg-secondary); }
 .timeline-item { position: relative; margin-bottom: 40px; }
 .timeline-item::before { content: ''; position: absolute; left: -36px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg-primary); }
 .timeline-date { font-weight: 700; color: var(--accent); margin-bottom: 5px; font-size: 1.1rem; }
-.timeline-content background: var(--bg-secondary); padding: 25px; border-radiu: 10px; border: 1px solid var(--card-border); }
+/* .timeline-content background: var(--bg-secondary); padding: 25px; border-radiu: 10px; border: 1px solid var(--card-border);  */
 .timeline-content h3 { font-size: 1.4rem; margin-bottom: 5px; }
 .timeline-content h4 { font-size: 1rem; color: var(--text-muted); margin-bottom: 15px; font-weight: 500; }
 .timeline-content ul { padding-left: 20px; color: var(--text-muted); }
 .timeline-content li { margin-bottom: 8px; font-size: 0.95rem; }
 
 /* --- Projects Section --- */
+
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -238,6 +249,8 @@ h2::after {
 }
 
 /* --- Contact Section --- */
+
+
 .contact-sub { text-align: center; color: var(--text-muted); margin-bottom: 50px; font-size: 1.1rem; }
 .contact-wrapper { display: grid; grid-template-columns: 1fr 1.5fr; gap: 40px; max-width: 900px; margin: 0 auto 50px; }
 .contact-info-list { display: flex; flex-direction: column; justify-content: center; gap: 25px; }
@@ -270,6 +283,8 @@ h2::after {
 footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.9rem; border-top: 1px solid var(--card-border); margin-top: 50px; }
 
 /* --- Entrance & Scroll Animations Hooks --- */
+
+
 .fade-in { animation: fadeIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards; opacity: 0; }
 .delay-1 { animation-delay: 0.15s; }
 .delay-2 { animation-delay: 0.3s; }
